@@ -20,8 +20,9 @@ num = gen_number
 
 if input == "exit"
  puts "Goodbye!"
+end
 
-elsif input == num
+if input == num
   puts "You guessed the correct number!"   
 
 else
