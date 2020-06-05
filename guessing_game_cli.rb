@@ -32,6 +32,6 @@ end
 
 def run_guessing_game
   prompt_user
-  pp check_anwser
+  check_anwser
 
 end
