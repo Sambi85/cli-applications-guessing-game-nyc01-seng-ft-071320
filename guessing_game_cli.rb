@@ -14,17 +14,17 @@ def user_input
     end
 
 def check_anwser
-
 prompt_user
 input = user_input
+num = gen_number
 
 if input == "exit"
   puts "Goodbye!"
 
-elsif input == gen_number
+elsif input == num
   puts "You guessed the correct number!"   
 
-elsif input != gen_number
+elsif input != num
   puts "Sorry! The computer guessed #{input}."
 
   end
