@@ -27,6 +27,9 @@ elsif input != gen_number
 
   end
 end
+
+pp check_anwser
+
 #-----------------------------------------------------------#
 
 def run_guessing_game
