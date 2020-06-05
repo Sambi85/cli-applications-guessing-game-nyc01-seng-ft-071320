@@ -20,7 +20,7 @@ if input == "exit"
  puts "Goodbye!"
 end
 
-if input == num
+if input == gen_number
   puts "You guessed the correct number!"   
 
 else
