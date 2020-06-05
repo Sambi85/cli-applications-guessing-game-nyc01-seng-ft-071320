@@ -9,8 +9,7 @@ def prompt_user
     end
 
 def user_input
- input = gets
- input.chomp
+  gets.chomp
     end
 
 def check_anwser
