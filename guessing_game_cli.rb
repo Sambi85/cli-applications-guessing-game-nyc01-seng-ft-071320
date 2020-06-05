@@ -25,7 +25,7 @@ elsif input == num
   puts "You guessed the correct number!"   
 
 elsif input != num
-   "Sorry! The computer guessed #{input}."
+  puts "Sorry! The computer guessed #{input}."
 
   end
 end
