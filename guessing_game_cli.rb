@@ -13,7 +13,7 @@ def user_input
  input.chomp
     end
 
-def check_anwser
+def check_anwser(user_input)
 prompt_user
 input = user_input
 num = gen_number
