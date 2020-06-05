@@ -15,7 +15,6 @@ def user_input
 def check_anwser
 prompt_user
 input = user_input
-num = gen_number
 
 if input == "exit"
  puts "Goodbye!"
@@ -25,7 +24,7 @@ if input == num
   puts "You guessed the correct number!"   
 
 else
-  puts "Sorry! The computer guessed #{num}."
+  puts "Sorry! The computer guessed #{gen_number}."
   end
 end
 
