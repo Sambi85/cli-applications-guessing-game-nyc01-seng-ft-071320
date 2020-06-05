@@ -14,6 +14,8 @@ def user_input
     end
 
 def check_anwser
+
+prompt_user
 input = user_input
 
 if input == "exit"
@@ -31,7 +33,6 @@ end
 #-----------------------------------------------------------#
 
 def run_guessing_game
-  prompt_user
   check_anwser
 
 end
