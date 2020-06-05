@@ -22,7 +22,7 @@ if input == "exit"
  puts "Goodbye!"
 
 elsif input == num
-   "You guessed the correct number!"   
+  puts "You guessed the correct number!"   
 
 elsif input != num
    "Sorry! The computer guessed #{input}."
