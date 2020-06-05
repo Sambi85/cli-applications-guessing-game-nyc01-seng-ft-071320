@@ -19,7 +19,7 @@ input = user_input
 num = gen_number
 
 if input == "exit"
-   "Goodbye!"
+ puts "Goodbye!"
 
 elsif input == num
    "You guessed the correct number!"   
