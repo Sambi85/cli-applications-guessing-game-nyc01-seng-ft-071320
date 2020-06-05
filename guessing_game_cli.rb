@@ -28,7 +28,7 @@ elsif input != gen_number
   end
 end
 
-pp check_anwser
+pp user_input
 
 #-----------------------------------------------------------#
 
