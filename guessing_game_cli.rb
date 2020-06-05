@@ -4,6 +4,8 @@ def gen_number
   rand(6) + 1
     end
 
+pp gen_number
+
 def prompt_user
   puts "Hello, Please guess a number between 1 and 6."  
     end
