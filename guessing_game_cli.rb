@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def gen_number
-  rand(6) 
+  rand(6) + 1
     end
 
 pp gen_number
