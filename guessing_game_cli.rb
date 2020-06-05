@@ -19,13 +19,13 @@ input = user_input
 num = gen_number
 
 if input == "exit"
-  puts "Goodbye!"
+   "Goodbye!"
 
 elsif input == num
-  puts "You guessed the correct number!"   
+   "You guessed the correct number!"   
 
 elsif input != num
-  puts "Sorry! The computer guessed #{input}."
+   "Sorry! The computer guessed #{input}."
 
   end
 end
