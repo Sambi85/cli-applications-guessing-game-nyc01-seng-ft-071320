@@ -24,9 +24,8 @@ if input == "exit"
 elsif input == num
   puts "You guessed the correct number!"   
 
-elsif input != num
+else
   puts "Sorry! The computer guessed #{num}."
-
   end
 end
 
