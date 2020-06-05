@@ -28,12 +28,10 @@ elsif input != gen_number
   end
 end
 
-pp user_input
-
 #-----------------------------------------------------------#
 
 def run_guessing_game
   prompt_user
-  check_anwser
+  pp check_anwser
 
 end
